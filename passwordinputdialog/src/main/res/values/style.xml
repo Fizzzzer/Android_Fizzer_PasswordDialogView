@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FizzerDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>   //对话框是否浮动
+        <item name="android:windowIsTranslucent">true</item>    //对话框会否透明
+        <item name="android:windowNoTitle">true</item>      //对话框无标题
+        <item name="android:background">#00000000</item>    //对话框的背景
+        <item name="android:windowBackground">@android:color/transparent</item> //对话框的背景
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <!-- 设置Dialog 的进出动画 -->
+    <style name="FizzerDialogAnim">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+</resources>
